@@ -7,16 +7,24 @@ To run this project you need
 
 **Window**
 
-```py -3.11 -m venv venv```
+```bash
+py -3.11 -m venv ven
+```
 
 **Mac/Linux**
 
-```python3.11 -m venv venv```
+```bash
+python3.11 -m venv venv
+```
 
 **Run venv Window**
 
-```venv/Scripts/activate```
+```bash
+venv/Scripts/activate
+```
 
 **Run venv Mac/Linux**
 
-```source venv/bin/activate```
+```bash
+source venv/bin/activate
+```
