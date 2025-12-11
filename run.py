@@ -11,7 +11,7 @@ from tensorflow.keras.callbacks import EarlyStopping
 # =============================
 # 1) โหลดข้อมูล + เตรียมเบื้องต้น
 # =============================
-df = pd.read_csv("co2_data_2000_2024_clear_dev_level.csv")
+df = pd.read_csv("dataclean/co2_data_2000_2024_clear_dev_level.csv")
 
 # เลือกกลุ่มความเจริญ: "No-Develop", "Developing", "Developed"
 dev_group = "No-Develop"   # <-- เปลี่ยนกลุ่มได้ตรงนี้
